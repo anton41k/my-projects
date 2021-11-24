@@ -1,0 +1,35 @@
+.filter{
+    display: grid;
+    max-width: calc(100vw - 371px);
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 22px;
+    padding: 16px 0 20px;
+    margin: 0px auto;
+}
+
+.current{
+    background-color:  var(--color-blue);
+}
+
+.btn_filter{
+    outline: none;
+
+    transition: transform var(--animation-duration) var(--timing-function);
+
+    border-radius: 10px;
+    border: 1px solid var(--color-black);
+    color: var(--color-black);
+    font-weight: 600;
+
+    padding: 8px;
+    width: 125px;
+}
+
+.btn_filter:hover{
+    background-color: var(--color-blue07);
+    transform: scale(1.05);
+    box-shadow: var(--box-shadowBTN) var(--color-blue04);
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+    cursor: pointer;
+}

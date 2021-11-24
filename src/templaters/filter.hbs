@@ -1,0 +1,8 @@
+<li class="filter__item">
+    <button type="button" class="btn_filter current" data-project="all">All Projects</button>
+</li>
+{{#each this.filterField}}
+<li class="filter__item">
+    <button type="button" class="btn_filter" data-project="{{this}}">{{this}}</button>
+</li>
+{{/each}}

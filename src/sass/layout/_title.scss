@@ -1,0 +1,9 @@
+.title{
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-shadow:
+    1px 1px 0 var(--color-blue),
+    1px -1px 0 var(--color-blue),
+    -1px 1px 0 var(--color-blue),
+    -1px -1px 0 var(--color-blue);
+}

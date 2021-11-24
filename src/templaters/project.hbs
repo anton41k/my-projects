@@ -1,0 +1,20 @@
+{{#each this}}
+<li class="project__item">
+    <div class="thumd_project">
+        <a href="{{page}}" target="_blank">
+            <img class="project_img" src="{{imgUrl}}" data-gif="{{gifUrl}}" alt="{{name}}" border="0">
+        </a>
+        <div class="description_card">
+            <p class="description">
+                {{description}}
+            </p>
+        </div>
+    </div>
+    <div class="thumb_name">
+        <p class="project_name">{{name}}</p>
+        <a href="{{repositorie}}" class="social__link" target="_blank" title="GitHub repositorie">
+            <img class="git_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png">
+        </a>
+    </div>
+</li>
+{{/each}}
