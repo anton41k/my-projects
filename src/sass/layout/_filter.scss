@@ -1,8 +1,22 @@
 .filter{
     display: grid;
-    max-width: calc(66vw - 60px);
-    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
-    gap: 22px;
+    @media screen and (max-width: 767px) {
+      max-width: calc(100vw - 15px);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      max-width: calc(100vw - 40px);
+      grid-template-columns: repeat(7, 1fr);
+      gap: 17px;
+    }
+  
+  @media screen and (min-width: 1024px) {
+      max-width: calc(100vw - 50px);
+      grid-template-columns: repeat(7, 1fr);
+      gap: 17px;
+    }
     padding: 16px 0 20px;
     margin: 0px auto;
 }
@@ -19,10 +33,27 @@
     border-radius: 10px;
     border: 1px solid var(--color-black);
     color: var(--color-black);
-    font-weight: 600;
-
-    padding: 8px;
-    width: 125px;
+  
+   @media screen and (max-width: 767px) {
+      font-size: 12px;
+      font-weight: 400;
+      padding: 4px 0;
+      width: 85px;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      font-size: 12px;
+      font-weight: 500;
+      padding: 8px 2px;
+      width: 93px;
+    }
+  
+  @media screen and (min-width: 1024px) {
+      font-size: 15px;
+      font-weight: 600;
+      padding: 8px 2px;
+      width: 125px;
+    }
 }
 
 .btn_filter:hover{
