@@ -68,7 +68,7 @@ const dataProjects = [
         repositorie:
             "https://project-smart-finance.netlify.app",
         project: ["Team Projects"],
-        languages: ["React", "NodeJS"],
+        languages: ["JavaScript", "React", "NodeJS"],
         description: 'An application for controlling finances. In this team project we developed Front-End (React [emotion, chartjs, hook-form, responsive, select, table, tabs, simplebar...]) and Back-End (NodeJS). Implemented the ability to login using Google; entering the initial balance, as well as the expenditure and income of this money; transaction data can be viewed and filtered in a table, and you can also view the movement of your funds in the form of a graph',
     },
 ];
