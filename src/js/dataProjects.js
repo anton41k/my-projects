@@ -58,7 +58,19 @@ const dataProjects = [
         project: ["Team Projects"],
         languages: ["HTML+CSS", "JavaScript"],
         description: 'This team project is implemented using HTML, CSS and JavaScript. This project allows you to create your own library from the list of trending films, in which films are displayed in a queue for viewing and already watched. There is a search option, detailed viewing of a movie, transition to viewing a trailer, pagination. Use the TheMovieDb API as a backend',
-    }
+    },
+    {
+        name:"smart finance",
+        imgUrl: "https://i.ibb.co/rw3WhY7/SF1.png",
+        gifUrl: "https://i.ibb.co/mDNTWcF/smart-finance.gif",
+        page:
+            "https://github.com/vmorgunov/project-smart-finance-frontend",
+        repositorie:
+            "https://project-smart-finance.netlify.app",
+        project: ["Team Projects"],
+        languages: ["React", "NodeJS"],
+        description: 'An application for controlling finances. In this team project we developed Front-End (React [emotion, chartjs, hook-form, responsive, select, table, tabs, simplebar...]) and Back-End (NodeJS). Implemented the ability to login using Google; entering the initial balance, as well as the expenditure and income of this money; transaction data can be viewed and filtered in a table, and you can also view the movement of your funds in the form of a graph',
+    },
 ];
 
 export default dataProjects;
