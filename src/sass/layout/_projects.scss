@@ -117,8 +117,20 @@
 }
 
 .description{
-    font-size: 18px;
-    line-height: 1.56;
+  @media screen and (max-width: 767px) {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      font-size: 18px;
+      line-height: 1.56;
+    }
+  
+    @media screen and (min-width: 1024px) {
+      font-size: 18px;
+      line-height: 1.34;
+    }
 
     text-align: justify;
 
